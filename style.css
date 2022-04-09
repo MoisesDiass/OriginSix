@@ -14,11 +14,26 @@ img{
   height: auto ;
 }
 
-/*BASE*/
-
-
+/*VARIAVEIS*/
 :root {
+  --color: red;
 
+
+}
+
+/*BASE*/
+body{
+  font:400 1rem "DM Sans", sans-serif;
+}
+
+h1{
+  
+  font: 700 1.875rem "Poppins", sans-serif;
+  color: var(--color)
+}
+
+.button {
+  
 }
 
 
