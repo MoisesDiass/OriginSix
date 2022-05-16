@@ -138,6 +138,13 @@ nav ul li a:hover {
   color: var(--base-color);
 }
 
+nav ul li a:hover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--base-color);
+}
+
 nav .menu {
   opacity: 0;
   visibility: hidden;
